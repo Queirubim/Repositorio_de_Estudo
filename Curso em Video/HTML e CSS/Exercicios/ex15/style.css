@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h1{color: blanchedalmond;}
+p{
+    color: blanchedalmond;
+    text-align: justify;
+}
+h2{color: blanchedalmond;}

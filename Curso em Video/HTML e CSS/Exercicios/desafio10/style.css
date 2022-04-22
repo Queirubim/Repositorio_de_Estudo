@@ -1,0 +1,100 @@
+@charset "UTF8";
+
+@font-face {
+    font-family: 'Android';
+    src: url(../desafio10/fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor0: #c5ebd6;
+    --cor1: #3CE845;
+    --cor2: #39DB41;
+    --cor3: #32C238;
+    --cor4: #04700F;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;
+    --fonte-android: 'Android', cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    justify-content: center;
+    background-color:var(--cor4);
+    font-family: var(--fonte-android);
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+nav {
+    height: 50px;
+}
+
+body, ul, p, a {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: var(--fonte-padrao);
+}
+
+body {
+        background-color: #c5ebd6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    background-color:  var(--cor3);
+   
+    padding: 0px 20px;
+}
+.ref {
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    color: black;
+    background-color: #c5ebd6;
+}
+
+ul#menu-principal {
+    background-color: black;
+    width: 90%;
+    margin: auto;
+}
+
+.li-p {
+    line-height: 50px;
+    float: left;
+}
+
+ul li a:hover {
+    background-color: rgba(255,255,255.3);
+}
+
+ul li ul{
+    display: none;
+}
+
+ul li ul li {
+    background-color: black;
+}
+
+.menu {
+    text-decoration: none;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}

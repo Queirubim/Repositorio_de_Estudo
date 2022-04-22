@@ -1,0 +1,5 @@
+p = float(input('Qual valor do produto ?:'))
+d0 = float(input('Qual o valor do desconto ?:'))
+d = (d0*p/100)
+v = (p-d)
+print(f'Voce teve {d:.2f}R$ de desconto e seu produto saiu por {v:.2f}R$')

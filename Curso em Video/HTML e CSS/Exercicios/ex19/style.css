@@ -1,0 +1,45 @@
+@charset "UTF-8"
+
+/*
+    em HTML é id = css é #
+    em HTML é class = em Css é .
+*/
+
+*{
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #36755B, #91F7CC);
+}
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto
+}
+
+h1#titulo {
+    text-align: center;
+    background-color: #36755B;
+    color: #91F7CC;
+}
+
+h1 {
+    color:#285542;
+}
+
+h2 {
+    color:#285542;
+}
+
+.basico{
+    color: #367536;
+}
+.medio{
+    color: #6f7536;
+}
+.avancado{
+    color: #753636;
+}

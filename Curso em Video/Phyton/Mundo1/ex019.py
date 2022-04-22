@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome Completo: ')).strip()
+print(f'Seu nome em maiusculo é {nome.upper()} :')
+print(f'Seu nome em minusculo é {nome.lower()} :')
+dividido = nome.split()
+junto = ''.join(dividido)
+print(f'A quantidade de letras do seu nome completo é {len(junto)} :')
+print(f'E a quantidade de letras do seu primeiro nome é {len(dividido[0])} :')
