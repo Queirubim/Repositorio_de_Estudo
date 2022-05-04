@@ -1,0 +1,23 @@
+{
+  "name": "porjetos",
+  "version": "1.0.0",
+  "description": "Meus arqueivos e anotações pessoas de cursos e faculdades",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Queirubim/Repositorio_de_Estudo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Queirubim/Repositorio_de_Estudo/issues"
+  },
+  "homepage": "https://github.com/Queirubim/Repositorio_de_Estudo#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
