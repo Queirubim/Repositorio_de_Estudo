@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-wrap</title>
+    <style>
+        .flex-container{
+            display: flex;
+            height: 150px;
+            border: 2px solid black;
+            max-width: 300px;
+        }
+        .item{
+            font-size: 24px;
+            height: 50%;
+            text-align: center;
+            min-width: 100px;
+            line-height: 50px;
+        }
+        .nowarp{
+            flex-wrap: nowrap;
+        }
+        .warp{
+            flex-wrap: wrap;
+        }
+        .orange{
+            background-color: orangered;
+        }
+        .blue{
+            background-color: blue;
+        }
+        .lime{
+            background-color: lime
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Sem warp</h1>
+    <div class="flex-container nowarp">
+        <div class="item orange">1</div>
+        <div class="item blue">2</div>
+        <div class="item lime">3</div>
+        <div class="item orange">4</div>
+    </div>
+    <h1>Warp</h1>
+    <div class="flex-container warp">
+        <div class="item orange">1</div>
+        <div class="item blue">2</div>
+        <div class="item lime">3</div>
+        <div class="item blue">4</div>
+    </div>
+</body>
+</html>

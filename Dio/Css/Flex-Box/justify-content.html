@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Justify-Content</title>
+
+    <style>
+        .item{
+            background-color: blueviolet;
+            margin: 5px;
+            color: whitesmoke;
+            text-align: center;
+        }
+        .container{
+            max-width: 400px;
+            border: 1px solid black;
+            margin: 0;
+            display: flex;
+        }
+        .column{
+            flex-direction: column;
+            min-height: 200px;
+        }
+        .flex-start{justify-content:flex-start;}
+        .flex-end{justify-content:flex-end;}
+        .center{justify-content:center;}
+        .space-between{justify-content:space-between;}
+        .space-around{justify-content:space-around;}
+        
+    
+    </style>
+</head>
+<body>
+    <h1>Row</h1>
+    <h2> Flex-Start</h2>
+    <section class="container flex-start">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">ultimo item</div>
+    </section>
+
+    <h2> Flex-End</h2>
+    <section class="container flex-end">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">ultimo item</div>
+    </section>
+
+    <h2> Center</h2>
+    <section class="container center">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">meio</div>
+        <div class="item">4 filho</div>
+        <div class="item">ultimo item</div>
+    </section>
+
+    <h2> Space-Between</h2>
+    <section class="container space-between">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">meio</div>
+        <div class="item">4 filho</div>
+        <div class="item">ultimo item</div>
+    </section>
+
+    <h2> Space-Around</h2>
+    <section class="container space-around">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">meio</div>
+        <div class="item">4 filho</div>
+        <div class="item">ultimo item</div>
+    </section>
+    <h1>Column</h1>
+    <h2> Flex-Start</h2>
+    <section class="container column flex-start">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">meio</div>
+        <div class="item">4 filho</div>
+        <div class="item">ultimo item</div>
+    </section>
+    <h2> Flex-End</h2>
+    <section class="container column flex-end">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">meio</div>
+        <div class="item">4 filho</div>
+        <div class="item">ultimo item</div>
+    </section>
+    <h2>Center</h2>
+    <section class="container column center">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">meio</div>
+        <div class="item">4 filho</div>
+        <div class="item">ultimo item</div>
+    </section>
+    <h2>Space-Between</h2>
+    <section class="container column space-between">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">meio</div>
+        <div class="item">4 filho</div>
+        <div class="item">ultimo item</div>
+    </section>
+    <h2>Space-Around</h2>
+    <section class="container column space-around">
+        <div class="item">1</div>
+        <div class="item">item 2</div>
+        <div class="item">meio</div>
+        <div class="item">4 filho</div>
+        <div class="item">ultimo item</div>
+    </section>
+    
+</body>
+</html>
